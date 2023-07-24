@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Groceries</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <!-- Tambahkan kode kalian di sini -->
+    <header class="navigation-container">
+      <div class="navigation__logo">
+        <a href="#"><img src="img/e-groceries.png" alt="e-groceries"></a>
+      </div>
+      <nav class="navigation__list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#package">Our Package</a></li>
+          <li><a href="#callUs">Call Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-jumbotron" id="home">
+        <div class="jumbotron__img">
+          <img src="img/grocery in bag.png">
+        </div>
+        <div class="jumbotron__title">
+          <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+          <p>Everyday with Best Ingredients</p>
+          <button><b><a href="#">Call Us</a></b></button>
+        </div>
+        <div class="jumbotron__img">
+          <img src="img/pumkin grocery.png">
+        </div>
+      </section>
+  
+      <section class="section-home">
+        <div class="description">
+          <h1>About Us</h1>
+          <p id="description">Life is getting busy? Don't worry, here we are! We provide you all fresh ingrediets to keep you eating healthy and homemade food everyday without having to go out picking your fresh ingredients at the stores. What are you waiting for? Just follow our 3 simple steps to get yours now!</p>      
+        </div>
+        <div class="home__wrapper">
+          <div class="home__info">
+            <div class="info__description">          
+              <div class="info__description-image" id="img1">
+                <img class="slider-img" src="img/juice.jpg" alt="groceries">
+              </div>
+              <div class="info__description-image" id="img2">
+                <img class="slider-img" src="img/olive.jpg" alt="groceries">
+              </div>
+              <div class="info__description-image" id="img2">
+                <img class="slider-img" src="img/vegetables.jpg" alt="groceries">
+              </div>
+            </div>
+            <h2 id="testi">Our Customer's Testimonial</h2>
+            <div class="info__testimonial">
+              <div class="testimonial-item">
+                <p><i>"Setiap hari beli sayur buah yang fresh di sini."</i></p>
+                  <div class="user-bio">
+                    <div class="user-image">
+                      <img src="img/Florence Hughes.png" alt="Florence Hughes">
+                    </div>
+                    <div class="user-name">
+                      <p><b>Florence Hughes</b></p>
+                      <p>Ibu Rumah Tangga, 28</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-item">
+                  <p><i>"Always fresh and fast delivery."</i></p>
+                  <div class="user-bio">
+                    <div class="user-image">
+                      <img src="img/Becky Lourencia.png" alt="Becky Lourencia">
+                    </div>
+                  <div class="user-name">
+                    <p><b>Becky Lourencia</b></p>
+                    <p>Mahasiswi, 22</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside class="home__form">
+            <div class="form-description">
+              <h3>Contact Us</h3>
+              <p>Sales akan menghubungi Anda 1 X 24 jam setelah data kami terima.</p>
+            </div>
+            <form class="form-input">
+              <label for="name"><b>Name</b></label>
+              <input type="text" name="name" id="name" placeholder="First and last name" />
+              <label for="city"><b>City</b></label>
+              <input type="text" name="city" id="city" placeholder="Your City" />
+              <label for="email"><b>Email</b></label>
+              <input type="email" name="email" id="email" placeholder="example@skilvul.com" />
+              <label for="zip-code"><b>Zip Code</b></label>
+              <input type="text" name="zip-code" id="zip-code" placeholder="contoh: 01029" />
+              <div class="confirm">
+                <input type="checkbox" id="status">
+                <label for="check" id="confirmation">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+              </div>
+              <button type="submit" id="submit-form">Submit</button>
+            </form>
+            <div id="warning"></div>
+          </aside>
+        </div>
+      </section>
+      <section class="steps__wrapper">
+        <h2>How it Works?</h2>
+        <div class="info__description-steps">
+          <p>Shop your groceries with no worries with these 3 simple steps:</p>              
+          <div class="info__description-steps__wrapper">
+            <div class="step-item">
+              <p class="step-number">1</p>
+              <p class="step-explain">Select our groceries packages you want</p>
+            </div>
+            <div class="step-item">
+              <p class="step-number">2</p>
+              <p class="step-explain">Fill the form provided on our web and submit</p>
+            </div>
+            <div class="step-item">
+              <p class="step-number">3</p>
+              <p class="step-explain">Wait for the order delivered to your doorsteps</p>
+            </div>
+          </div>  
+        </div>   
+      </section>
+      <section class="section-package" id="package">
+        <h2>Our Package</h2>
+        <div class="package__wrapper">
+          <div class="packages-row">
+            <div class="package-item">
+              <div class="package-img">
+                <img src="img/vegetables.png" alt="Fresh Vegetable">
+              </div>
+              <div class="package-description">
+                <h5>Fresh Vegetable</h5>
+                <p>Sayuran segar langsung dari sumber pertanian terbaik.</p>
+                <img src="img/blob.svg">
+              </div>
+              </div>
+                <div class="package-item">
+                  <div class="package-img">
+                    <img src="img/fruits.png" alt="Fresh Fruit">
+                  </div>
+                  <div class="package-description">
+                    <h5>Fresh Fruit</h5>
+                    <p>Buah dengan kualitas terbaik dari local atau import dan harga yang menarik.</p>
+                    <img src="img/blob.svg">
+                  </div>
+                </div>
+              <div class="package-item">
+              <div class="package-img">  
+                <img src="img/delivery-courier.png" alt="Instant Delivery">
+              </div>
+              <div class="package-description">
+                <h5>Instant Delivery</h5>
+                <p>Dikirim instan oleh kurir yang telah di-<i>training</i> dengan SOP untuk menjaga kondisi belanja kamu. </p>
+                <img src="img/blob.svg">
+              </div>
+            </div>
+          </div>
+          <div class="packages-row">
+            <div class="package-item">
+              <div class="package-img">
+                <img src="img/spices.png" alt="Kitchen Ingredients">
+              </div>
+              <div class="package-description">
+                <h5>Kitchen Ingredients</h5>
+                <p>Bumbu dapur lengkap untuk keperluan memasak kamu.</p>
+                <img src="img/blob.svg">
+              </div>
+              </div>
+                <div class="package-item">
+                  <div class="package-img">  
+                    <img src="img/kitchen-ware.png" alt="Kitchen Set">
+                  </div>
+                  <div class="package-description">
+                    <h5>Kitchen Set</h5>
+                    <p>Segala jenis alat masak untuk membantu kamu memasak.</p>
+                    <img src="img/blob.svg">
+                  </div>
+                </div>
+              <div class="package-item">
+                <div class="package-img">
+                  <img src="img/bundling-set.png" alt="Bundling Set">
+                </div>  
+                <div class="package-description">
+                  <h5>Bundling Set</h5>
+                  <p>Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapur mu.</p>
+                  <img src="img/blob.svg">
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section class="section-callUs" id="callUs">
+        <h2>Mau belanja?<br>Ingat E-Groceries! Always Fresh, Always Fast!</h2>
+        <p>Kami bekerja bersama dengan 600+ supermarket dan groceries shop yang tersebar di berbagai kota di Indonesia<br>untuk memastikan belanjaan Anda tetap fresh dan tidak terlalu lama di perjalanan.</p>
+        <button><b><a href="#">Call Us</a></b></button>
+      </section>
+      <footer>
+        <hr>
+        <img src="img/e-groceries.png">
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p>&#169; E-Groceries</p>
+      </footer>
+    </main>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
